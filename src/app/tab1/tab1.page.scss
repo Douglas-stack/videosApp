@@ -1,4 +1,24 @@
-n1{
+ion-item{
+  --padding-start:10px;
+  --inner-padding-end:10px;
+
+  ion-thumnmail{
+  height:100%;
+  margin-inline-end: 10px;
+}
+
+h1{
   font-weight: bold;
-  color: blue
+  font-size: 0.8rm;
+  }
+
+  p{
+    font-size:0.6rm;
+  }
+  p+p{
+    color: #8a8a8a;
+  }
+  ion-chip{
+    padding-inline:3px;
+  }
 }
