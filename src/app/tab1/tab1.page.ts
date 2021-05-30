@@ -27,7 +27,34 @@ export class Tab1Page {
      pagina: '/mortal-kombat'
     },
     {
-      nome: 'Liga da Justiça 10',
+      nome: 'Liga da Justiça 1',
+      lancamento: '22/10/2024',
+      duracao: '4 h',
+      classificacao: 16,
+      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      generos: ['acao','fantasia','aventura'],
+      pagina: '/liga-da-justiça'
+    }
+    {
+      nome: 'Liga da Justiça 2',
+      lancamento: '22/10/2024',
+      duracao: '4 h',
+      classificacao: 16,
+      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      generos: ['acao','fantasia','aventura'],
+      pagina: '/liga-da-justiça'
+    }
+    {
+      nome: 'Liga da Justiça 3',
+      lancamento: '22/10/2024',
+      duracao: '4 h',
+      classificacao: 16,
+      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      generos: ['acao','fantasia','aventura'],
+      pagina: '/liga-da-justiça'
+    }
+    {
+      nome: 'Liga da Justiça Ultimate',
       lancamento: '22/10/2024',
       duracao: '4 h',
       classificacao: 16,
