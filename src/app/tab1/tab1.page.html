@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
     <ion-title>
-      Videos App
+      {{titulo}}
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -11,44 +11,22 @@
   <ion-searchbar placeholder="Buscar"></ion-searchbar>
   <ion-list>
 
-    <ion-item-sliding>
+    <ion-item-sliding *ngFor="let filme of listaVideos">
     <ion-item lines="full">
       <ion-thumbnail slot="start">
-        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/2021/HegzrjPhpJBKyqzuk6Hvk3hI.jpg?w=1920&thumb=false">
+        <img [src]="filme.cartaz">
       </ion-thumbnail>
       <ion-label class="ion-text-wrap">
         <div>
-          <h1>Mortal Kombat</h1>
-            <p>15/04/2021</p>
-            <p>Ação</p>
+          <h1>{{filme.nome}}</h1>
+            <p>{{filme.lancamento}}-{{filme.duracao}}</p>
+            <ion-badge color="light" *ngFor="let genero of filme.generos">{{genero}}]</ion-badge>
           </div>
         </ion-label>
         <ion-chip color="success" outline>
-          <ion-label>76%</ion-label>
-        </ion-chip>
-    </ion-item>
-
-    <ion-item-options side="end">
-      <ion-item-option color="laranja" (click)="exibirAlertaFavorito">
-        <ion-icon slot="icon-only" name="star"></ion-icon>
-      </ion-item-option>
-    </ion-item-options>
-  </ion-item-sliding>
-
-  <ion-item-sliding>
-    <ion-item lines="full">
-      <ion-thumbnail slot="start">
-        <img src="https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/03/legiao_Q6igMuHCrPjo.jpg.jpeg">
-      </ion-thumbnail>
-      <ion-label class="ion-text-wrap">
-        <div>
-          <h1>Liga da Justiça</h1>
-            <p>15/04/2021 - 4 Horas</p>
-            <p>Ação</p>
-          </div>
-        </ion-label>
-        <ion-chip color="success" outline>
-          <ion-label>76%</ion-label>
+          <ion-label>{{filme.classificacao}}
+            <ion-badge color="light" *ngFor="let genero of filme.generos">77</ion-badge>
+          </ion-label>
         </ion-chip>
     </ion-item>
 

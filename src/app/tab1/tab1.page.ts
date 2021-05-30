@@ -1,3 +1,4 @@
+import { IFilme } from '../models/IFilme.model';
 import { Component } from '@angular/core';
 import { AlertController, SelectValueAccessor } from '@ionic/angular';
 import { ToastController } from '@ionic/angular';
@@ -9,6 +10,35 @@ import { ToastController } from '@ionic/angular';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+
+  titulo ='Videos';
+
+  listaVideos: IFilme[]=[
+    {
+     nome: 'Mortal Kombat',
+     lancamento: '22/10/2023',
+     duracao: '2 h',
+     classificacao: 18,
+     cartaz: 'http:\\ok.com.br',
+     generos: ['acao','fantasia','aventura']
+    },
+    {
+      nome: 'Mortal Kombat 10',
+      lancamento: '22/10/2024',
+      duracao: '4 h',
+      classificacao: 16,
+      cartaz: 'http:\\ok123.com.br',
+      generos: ['acao','fantasia','aventura']
+    },
+    {
+      nome: 'Mortal Kombat 10',
+      lancamento: '22/10/2024',
+      duracao: '4 h',
+      classificacao: 16,
+      cartaz: 'http:\\ok123.com.br',
+      generos: ['acao','fantasia','aventura']
+    }
+  ];
 
   constructor(public alertController: AlertController,public toastController: ToastController) {}
   async exibirAlertaFavorito() {
@@ -25,7 +55,7 @@ export class Tab1Page {
         }, {
           text: 'Sim favoritar',
           handler: () => {
-            console.log('Confirm Okay');
+            this.apresentarToast();
           }
         }
       ]
