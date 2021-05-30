@@ -34,31 +34,31 @@ export class Tab1Page {
       cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
       generos: ['acao','fantasia','aventura'],
       pagina: '/liga-da-justiça'
-    }
+    },
     {
-      nome: 'Liga da Justiça 2',
+      nome: 'Relatos Mundo',
       lancamento: '22/10/2024',
       duracao: '4 h',
       classificacao: 16,
-      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      cartaz: 'https://br.web.img3.acsta.net/c_310_420/pictures/21/01/28/19/17/1791660.jpg',
       generos: ['acao','fantasia','aventura'],
       pagina: '/liga-da-justiça'
-    }
+    },
     {
-      nome: 'Liga da Justiça 3',
+      nome: 'Amor e Monstros',
       lancamento: '22/10/2024',
       duracao: '4 h',
       classificacao: 16,
-      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      cartaz: 'https://br.web.img3.acsta.net/c_310_420/pictures/20/10/01/10/37/5061463.jpg',
       generos: ['acao','fantasia','aventura'],
       pagina: '/liga-da-justiça'
-    }
+    },
     {
-      nome: 'Liga da Justiça Ultimate',
+      nome: 'Emma',
       lancamento: '22/10/2024',
       duracao: '4 h',
       classificacao: 16,
-      cartaz: 'https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/03/23/1572893681-justiceleaguecovercustomtextless.jpg',
+      cartaz: 'https://br.web.img2.acsta.net/c_310_420/pictures/19/12/04/14/45/2094218.jpg',
       generos: ['acao','fantasia','aventura'],
       pagina: '/liga-da-justiça'
     }
