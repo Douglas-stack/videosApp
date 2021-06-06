@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { LigaDaJusticaPageRoutingModule } from './liga-da-justica-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { LigaDaJusticaPage } from './liga-da-justica.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LigaDaJusticaPageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [LigaDaJusticaPage]
+  declarations: [LoginPage]
 })
-export class LigaDaJusticaPageModule {}
+export class LoginPageModule {}
