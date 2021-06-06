@@ -5,6 +5,12 @@ ion-item{
   ion-thumnmail{
   height:50%;
   margin-inline-end: 10px;
+
+  ion-icon{
+    font-size: 48px;
+    color:#dcdcdc;
+
+  }
 }
 
 h1{
@@ -22,6 +28,11 @@ h1{
 
   ion-chip{
     padding-inline:3px;
+    height:48px;
+    width:48px;
+    border-radius: 50%;
+    justify-content: center;
+    border-width: 3px;
   }
 
   ion-bagde{
